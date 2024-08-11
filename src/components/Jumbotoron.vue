@@ -1,14 +1,14 @@
 <script>
 export default {
-  name: "Jumbotoron"
+  name: "Jumbotron" // Correction de l'orthographe
 }
 </script>
 
 <template>
- <div class="container">
+ <div class="container my-5">
   <div class="row">
     <div class="col-md-7">
-      <!-- <img src="https://picsum.photos/id/237/200/300 " alt=""> -->
+      <img src="https://picsum.photos/id/237/200/300" alt=""> <!-- Correction de l'espace après l'URL -->
       Image
     </div>
     <div class="col-md-5">

@@ -1,20 +1,28 @@
-<script setup>
+<script>
 import Navbar from './components/Navbar.vue'
-import Jumbotron from './components/Jumbotron.vue'
+import Jumbotron from './components/Jumbotoron.vue'
+import CTA from './components/CTA.vue'
+import Card from './components/Cards.vue'
+import Cards from './components/Cards.vue'
+
 export default {
-  name: "App", 
+  name: "App",
   components: {
-      Jumbotron
-    }
-  
+    Navbar,
+    Jumbotron,
+    CTA,
+    Cards,
+    Cards
+  }
 }
 </script>
 
 <template>
   <Navbar />
-  <jumbotoron />
+  <Jumbotron />
+  <CTA />
+  <cards />
 </template>
 
 <style scoped>
-
 </style>
